@@ -14,7 +14,7 @@ Este é um projeto simples de calculadora feito com **HTML, CSS e JavaScript pur
 📦 calculadora
 |── index.html
 |── styles.css
-|── script embutido no HTM
+|── script embutido no HTML
 
 
 > ⚠️ *O script JavaScript está inserido diretamente no HTML, facilitando a visualização e testes rápidos.*
