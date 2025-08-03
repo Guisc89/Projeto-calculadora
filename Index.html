@@ -19,8 +19,8 @@
     </div>      
         <table>
             <tr>
-                <td><button class="teclas" onclick="clear('')">C</button></td>
-                <td><button class="teclas" onclick="insert('C')"><</button></td>
+                <td><button class="teclas" onclick="limpar()">C</button></td>
+                <td><button class="teclas" onclick="apagar('C')"><</button></td>
                 <td><button class="teclas" onclick="insert('/')">/</button></td>
                 <td><button class="teclas" onclick="insert('*')">X</button></td>
             </tr>
@@ -40,7 +40,7 @@
                 <td><button class="teclas" onclick="insert('1')">1</button></td>
                 <td><button class="teclas" onclick="insert('2')">2</button></td>
                 <td><button class="teclas" onclick="insert('3')">3</button></td>
-                <td rowspan="2"><button class="teclas-igual" onclick="insert('=')">=</button></td>
+                <td rowspan="2"><button class="teclas-igual" onclick="calcula('=')">=</button></td>
             </tr>
             <tr>
                 <td colspan="2"><button class="teclas-zero" onclick="insert('0')">0</button></td>
@@ -53,10 +53,20 @@
         {
           document.getElementById("Resultado").value += num;
         }
-        function clear()
+        function limpar()
         {
             document.getElementById("Resultado").value = '';
         }
+        function apagar(num)
+        {
+           let campo = document.getElementById("Resultado");
+campo.value = campo.value.substring(0, campo.value.length - 1);
+        }
+        function calcula()
+        {
+            let resultado = document.getElementById("Resultado").value;
+            document.getElementById("Resultado").value = eval(resultado);
+        }
 </script>
 </body>
-</html>  
+</html>
