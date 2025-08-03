@@ -27,7 +27,6 @@ Este é um projeto simples de calculadora feito com **HTML, CSS e JavaScript pur
 
 ## 📌 Melhorias futuras (to-do)
 
-- Corrigir a tecla de apagar `<` (atualmente mal implementada)
 - Criar um arquivo separado `script.js` para melhor organização
 - Adicionar feedback visual nos botões ao clicar
 - Melhorar o design com Tailwind ou CSS moderno
