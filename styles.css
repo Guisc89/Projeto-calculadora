@@ -32,66 +32,48 @@ header {
     border-radius: 25px;
     font-size: 20px;
     font-weight: bold;
-    cursor: pointer;
-    transition: 0.5s;
+    transition: background-color 0.5s;
     }
 .fundo:hover{
         background-color: #000000;
     }
     
-.teclas {
+.teclas, .teclas-zero, .teclas-igual {
     font-size: 20px;
     font-weight:bold;
     color: #ffffff;
+    background-color: #1d1d1d;
+    border: none;
+    opacity: 0.8;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.teclas:hover, .teclas-zero:hover, .teclas-igual:hover {
+    background-color: #000000a1;
+}
+
+.teclas {
     display: flex;
     justify-content: center;
     align-items: center; 
-    flex-direction: column;
     margin: 1px;
     width: 50px;
     height: 50px;
-    background-color: #1d1d1d;
-    border: none;
-    opacity: 80%;
-    
 }
-.teclas:hover {
-    background-color: #000000a1;
-    opacity: 80%;
-    }
 
 .teclas-zero {
-    font-size: large;
-    font-size: 20px;
-    font-weight:bold;
-    color: #ffffff;
     width: 102px;
     height: 50px;
-    background-color: #1d1d1d;
-    opacity: 80%;
-    border: none;    
 }
-.teclas-zero:hover {
-    background-color: #000000a1;
-    opacity: 80%;
-}
+
 .teclas-igual {
-    font-size: large;
-    font-size: 20px;
-    font-weight:bold;
-    color: #ffffff;
     width: 50px;
     height: 102px;
-    background-color: #1d1d1d;
-    opacity: 80%;
-    border: none;    
 }
-.teclas-igual:hover {
-    background-color: #000000a1;
-    opacity: 80%;
-}
+
 #Resultado {
     text-align: right;
+    font-size: 15px;
     border: none;
     background-color: #ffffff;
     margin: 0px 0px 5px 10px;
@@ -109,3 +91,5 @@ header {
     font-size: 20px;
     padding: 5px 200px 5px 5px;
 }
+
+/* AJUSTES PARA TELAS PEQUENAS (CELULAR) */

@@ -14,20 +14,17 @@ Este é um projeto simples de calculadora feito com **HTML, CSS e JavaScript pur
 📦 calculadora
 |── index.html
 |── styles.css
-|── script embutido no HTML
-
-
-> ⚠️ *O script JavaScript está inserido diretamente no HTML, facilitando a visualização e testes rápidos.*
+|── script.js
 
 ## 💻 Como usar
 
-1. Clone este repositório ou baixe os arquivos .zip
-2. Abra o arquivo `index.html` em qualquer navegador
-3. Pronto! A calculadora estará pronta para uso.
+1. Clique no link do site para acessar o projeto
+2. Ou clone este repositório e baixe os arquivos .zip
+3. Abra o arquivo `index.html` em qualquer navegador
+4. Pronto! A calculadora estará pronta para uso.
 
 ## 📌 Melhorias futuras (to-do)
 
-- Criar um arquivo separado `script.js` para melhor organização
 - Adicionar feedback visual nos botões ao clicar
 - Melhorar o design com Tailwind ou CSS moderno
 
