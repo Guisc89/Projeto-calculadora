@@ -33,6 +33,10 @@ header {
     font-size: 20px;
     font-weight: bold;
     transition: background-color 0.5s;
+    /* Animação de entrada */
+    opacity: 0; /* vai começar invisível */
+    transform: translateY(30px); /* Começa um pouco para baixo */
+    animation: fadeInUp 0.10s ease-out 0.3s forwards;
     }
 .fundo:hover{
         background-color: #000000;
@@ -93,3 +97,11 @@ header {
 }
 
 /* AJUSTES PARA TELAS PEQUENAS (CELULAR) */
+
+/* Definição da animação de entrada */
+@keyframes fadeInUp {
+    to {
+        opacity: 1; /* Termina totalmente visível */
+        transform: translateY(0); /* Termina na sua posição original */
+    }
+}
