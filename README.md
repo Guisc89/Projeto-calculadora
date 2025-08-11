@@ -26,6 +26,7 @@ Este é um projeto simples de calculadora feito com **HTML, CSS e JavaScript pur
 ## 📌 Melhorias futuras (to-do)
 
 - Adicionar feedback visual nos botões ao clicar
+- Melhorar a responsividade para diferentes tipos de tela
 - Melhorar o design com Tailwind ou CSS moderno
 
 ---
