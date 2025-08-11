@@ -8,6 +8,7 @@ Este é um projeto simples de calculadora feito com **HTML, CSS e JavaScript pur
 - Operações básicas: adição, subtração, multiplicação e divisão
 - Limpeza do campo de entrada
 - Entrada de números via botões clicáveis
+- Animação de entrada da calculadora
 
 ## 📁 Estrutura do Projeto
 
